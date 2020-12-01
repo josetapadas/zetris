@@ -1,11 +1,26 @@
 <html>
     <head>
-        <meta charset="UTF-8">
-        <title>ts-demo-webpack</title>
+        <title>zetris</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Syne+Mono&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
     </head>
 
-    <body>
-        <div id="output"></div>
+    <body class="main">
+        <div class="container">
+        <div class="grid">
+            <canvas id="board" class="game-board"></canvas>
+            <div class="right-column">
+              <div>
+                <h1>ZETRIS</h1>
+                <p>Level <span id="level">0</span></p>
+                <p>Lines <span id="lines">0</span></p>
+                <button id="new-game" class="play-button">NEW GAME</button>
+                <canvas id="next" class="next"></canvas>
+              </div>
+            </div>
+          </div>
+        </div>
         <script src="main-bundle.js"></script>
     </body>
 </html>

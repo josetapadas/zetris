@@ -1,0 +1,32 @@
+* {
+    font-family: 'Syne Mono', monospace;
+}
+
+.main {
+    background-color: #2e2e32;
+    color: #c2ff00;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 320px 200px;
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.game-board {
+    border: solid 2px;
+}
+
+.play-button {
+    background-color: #2e2e32;
+    font-size: 14px;
+    border-radius: 40px;
+    width: 60%;
+    border: 2px solid #c2ff00;
+    color: #c2ff00;
+}
